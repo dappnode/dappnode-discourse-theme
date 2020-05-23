@@ -13,10 +13,25 @@
 // DAppNode specifics
 
 $dappnode-gradient: linear-gradient(130deg, #27a9a0, #1ddcce);
+$light-gray-color: #7f9898;
 $hover-opacity: 0.75;
 
 .badge-category-bg {
   border-radius: 4px;
+}
+
+// Make the top menu dropdown item hover style more visible
+.menu-panel li a.widget-link:hover,
+.menu-panel li a.widget-link:focus,
+.menu-panel li.heading a.widget-link:hover,
+.menu-panel li.heading a.widget-link:focus {
+  background-color: #7d7d7d29;
+}
+
+// Center icon in notifications button: [Bell Normal]
+.select-kit-selected-name.selected-name.choice.ember-view {
+  display: flex;
+  align-items: center;
 }
 
 // Aragon forked CSS
@@ -28,7 +43,7 @@ body {
 
 // header
 .d-header {
-  background-color: #090d14;
+  background-color: #091413;
 }
 .d-header-icons .icon:hover,
 .d-header-icons .icon:focus {
@@ -42,7 +57,7 @@ body {
 }
 .list-controls .combo-box .combo-box-header {
   background: $highlight;
-  padding: 20px;
+  padding: 9px 25px;
   border: 0px;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
@@ -272,7 +287,7 @@ nav.post-controls a,
 nav.post-controls button,
 nav.post-controls .like-button .like-count,
 .topic-meta-data .post-info a {
-  color: #62829e;
+  color: #687f7d;
 }
 
 span.post-count {
@@ -513,7 +528,7 @@ nav.post-controls button:focus {
   font-family: "FontRegular", sans-serif;
   font-size: 14px;
   line-height: 3.14;
-  color: #7f8198;
+  color: $light-gray-color;
   cursor: pointer;
   text-decoration: none;
 }
@@ -525,11 +540,10 @@ nav.post-controls button:focus {
   font-family: "FontRegular", sans-serif;
   font-size: 14px;
   line-height: 3.14;
-  color: #7f8198;
+  color: $light-gray-color;
 }
 .form-button {
   margin-left: 15px;
-  opacity: 0.35;
   border-radius: 3px;
   background-image: $dappnode-gradient;
   color: white;
@@ -604,7 +618,7 @@ nav.post-controls button:focus {
 
 // Hero
 .hero {
-  background: #0d131e;
+  background: #0d1e1d;
   display: flex;
   align-items: center;
   justify-content: center;
