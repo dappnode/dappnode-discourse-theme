@@ -1,31 +1,31 @@
 {
-  "name": "Theme name",
+  "name": "DAppNode forum",
   "about_url": "Theme about url",
-  "license_url": "https://github.com/aragon/forum/blob/master/LICENSE",
+  "license_url": "https://github.com/dappnode/dappnode-discourse-theme/blob/master/LICENSE",
   "color_schemes": {
-      "light": {
-         "primary": "60809C",
-         "secondary": "f9fafc",
-         "tertiary": "00c0e3",
-         "quaternary": "e6eaf2",
-         "header_background": "2D4051",
-         "header_primary": "ffffff",
-         "highlight": "ffffff",
-         "danger": "DE5739",
-         "success": "009900",
-         "love": "F9FAFC"
-       },
-       "dark": {
-          "primary": "86A2BA",
-          "secondary": "101622",
-          "tertiary": "00c0e3",
-          "quaternary": "0c111b",
-          "header_background": "ffffff",
-          "header_primary": "090D14",
-          "highlight": "212C47",
-          "danger": "DE5739",
-          "success": "009900",
-          "love": "293758"
-        }
-   }
+    "light": {
+      "primary": "60809C",
+      "secondary": "f9fafc",
+      "tertiary": "2fbcb2",
+      "quaternary": "e6eaf2",
+      "header_background": "2D4051",
+      "header_primary": "ffffff",
+      "highlight": "ffffff",
+      "danger": "DE5739",
+      "success": "009900",
+      "love": "F9FAFC"
+    },
+    "dark": {
+      "primary": "86A2BA",
+      "secondary": "101622",
+      "tertiary": "2fbcb2",
+      "quaternary": "0c111b",
+      "header_background": "ffffff",
+      "header_primary": "090D14",
+      "highlight": "212C47",
+      "danger": "DE5739",
+      "success": "009900",
+      "love": "293758"
+    }
+  }
 }
