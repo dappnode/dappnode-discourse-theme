@@ -15,6 +15,8 @@
 $dappnode-gradient: linear-gradient(130deg, #27a9a0, #1ddcce);
 $light-gray-color: #7f9898;
 $hover-opacity: 0.75;
+$border-radius: 6px;
+$hero-dark-background: #091413;
 
 .badge-category-bg {
   border-radius: 4px;
@@ -43,7 +45,7 @@ body {
 
 // header
 .d-header {
-  background-color: #091413;
+  background-color: $hero-dark-background;
 }
 .d-header-icons .icon:hover,
 .d-header-icons .icon:focus {
@@ -543,12 +545,14 @@ nav.post-controls button:focus {
   color: $light-gray-color;
 }
 .form-button {
-  margin-left: 15px;
-  border-radius: 3px;
+  width: 5rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: $border-radius;
   background-image: $dappnode-gradient;
-  color: white;
+  color: white !important;
   border: solid 0px transparent;
-  padding: 0 30px;
+  padding: 0 20px;
   line-height: 2.4;
   outline: none;
   cursor: pointer;
@@ -618,7 +622,7 @@ nav.post-controls button:focus {
 
 // Hero
 .hero {
-  background: #0d1e1d;
+  background: $hero-dark-background;
   display: flex;
   align-items: center;
   justify-content: center;
